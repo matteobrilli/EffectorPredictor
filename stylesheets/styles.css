@@ -118,7 +118,7 @@ header ul {
   -webkit-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   -moz-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
-  width: 25px;
+  width: 50px;
 }
 header ul2 {
   margin: 0;
@@ -141,7 +141,7 @@ header ul2 {
   -webkit-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   -moz-box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
-  width: auto;
+  width: 50;
 }
 header ul:before {
   content: '';
@@ -183,13 +183,13 @@ header ul li {
   width: 79px;
   float: left;
   border-right: 1px solid #3A7CBE;
-  height: 38px;
+  height: 48px;
 }
 header ul2 li {
   width: 79px;
   float: left;
   border-right: 1px solid #3A7CBE;
-  height: 38px;
+  height: 60px;
 }
 header ul li.single {
   border: none;
