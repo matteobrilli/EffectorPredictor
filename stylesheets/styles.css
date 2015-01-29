@@ -183,13 +183,13 @@ header ul li {
   width: auto;
   float: left;
   border-right: 1px solid #3A7CBE;
-  height: 38px;
+  height: 50px;
 }
 header ul2 li {
   width: auto;
   float: left;
   border-right: 1px solid #3A7CBE;
-  height: 38px;
+  height: 60px;
 }
 header ul li.single {
   border: none;
