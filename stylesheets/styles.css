@@ -161,13 +161,40 @@ header ul:before {
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
   box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
 }
+header ul2:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: -5px;
+  top: -4px;
+  right: -5px;
+  bottom: -6px;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
+}
 header ul li {
   width: 79px;
   float: left;
   border-right: 1px solid #3A7CBE;
   height: 38px;
 }
+header ul2 li {
+  width: 79px;
+  float: left;
+  border-right: 1px solid #3A7CBE;
+  height: 38px;
+}
 header ul li.single {
+  border: none;
+}
+header ul2 li.single {
   border: none;
 }
 header ul li + li {
@@ -191,6 +218,33 @@ header ul a {
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 }
 header ul a strong {
+  font-size: 14px;
+  display: block;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+header ul2 li + li {
+  width: 78px;
+  border-left: 1px solid #8BBEF3;
+}
+header ul2 li + li + li {
+  border-right: none;
+  width: 79px;
+}
+header ul2 a {
+  line-height: 1;
+  font-size: 11px;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 6px;
+  height: 40px;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+}
+header ul2 a strong {
   font-size: 14px;
   display: block;
   color: #fff;
