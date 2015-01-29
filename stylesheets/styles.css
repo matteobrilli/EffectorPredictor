@@ -71,7 +71,7 @@ header {
 header h1 {
   margin: 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 1.2;
   color: #069;
   text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
@@ -214,7 +214,7 @@ header ul a {
   text-align: center;
   font-weight: 400;
   padding-top: 6px;
-  height: 40px;
+  height: 50px;
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 }
 header ul a strong {
@@ -241,7 +241,7 @@ header ul2 a {
   text-align: center;
   font-weight: 400;
   padding-top: 6px;
-  height: 40px;
+  height: 60px;
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 }
 header ul2 a strong {
