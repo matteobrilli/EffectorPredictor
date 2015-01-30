@@ -198,12 +198,12 @@ header ul2 li.single {
   border: none;
 }
 header ul li + li {
-  width: 78px;
+  width: 100px;
   border-left: 1px solid #8BBEF3;
 }
 header ul li + li + li {
   border-right: none;
-  width: 79px;
+  width: 100px;
 }
 header ul a {
   line-height: 1;
@@ -225,12 +225,12 @@ header ul a strong {
 }
 
 header ul2 li + li {
-  width: 78px;
+  width: 100px;
   border-left: 1px solid #8BBEF3;
 }
 header ul2 li + li + li {
   border-right: none;
-  width: 79px;
+  width: 100px;
 }
 header ul2 a {
   line-height: 1;
