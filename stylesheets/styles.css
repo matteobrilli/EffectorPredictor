@@ -183,7 +183,7 @@ header ul li {
   width: auto;
   float: left;
   border-right: 1px solid #3A7CBE;
-  height: 50px;
+  height: 70px;
 }
 header ul2 li {
   width: auto;
@@ -214,11 +214,11 @@ header ul a {
   text-align: center;
   font-weight: 400;
   padding-top: 6px;
-  height: 50px;
+  height: 70px;
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 }
 header ul a strong {
-  font-size: 14px;
+  font-size: 13px;
   display: block;
   color: #fff;
   -webkit-font-smoothing: antialiased;
